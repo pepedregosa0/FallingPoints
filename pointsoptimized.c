@@ -5,7 +5,7 @@
 #define WINDOW_WIDTH 800
 #define WINDOW_HEIGHT 600
 
-#define NUM_POINTS 1000
+#define NUM_POINTS 100000
 
 #define NUM_LAYERS 3
 

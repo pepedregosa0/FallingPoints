@@ -6,11 +6,11 @@ This project demonstrates the impact of draw-call optimization in SDL2. It compa
 
 - Normal Version `points.c`: Draws points individually using separate draw calls. This creates a bottleneck between the CPU and GPU.
 
-![Falling Snow](images/snow.png)
+![Falling Snow](images/snow.gif)
 
 - Optimized Version `pointsoptimized.c`: Batches point data to render everything in a single draw call. This significantly improves framerates and allows for a much higher particle count.
 
-![Heavy Snow](images/heavy.png)
+![Heavy Snow](images/heavy.gif)
 
 ## Prerequisites
 
